@@ -24,7 +24,7 @@ namespace Deliverable1
                 Console.WriteLine("Thanks!  Please enter the amount of '" + userUnit + "' you'd like to convert.");
                 double value = double.Parse(Console.ReadLine());
 
-                Console.WriteLine("Fantastic!  Let me convert that to MilHip for you...");
+                Console.WriteLine("Fantastic!  Let me convert that for you...");
                 Console.WriteLine(" ");
 
                 if (userUnit.ToLower().StartsWith("inch"))
@@ -96,7 +96,7 @@ namespace Deliverable1
                 Console.WriteLine(" ");
 
                 again = Console.ReadLine();
-            } while (String.Equals(again, "yes", StringComparison.OrdinalIgnoreCase));
+            } while (string.Equals(again, "yes", StringComparison.OrdinalIgnoreCase));
 
         }
 
